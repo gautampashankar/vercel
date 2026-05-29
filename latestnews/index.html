@@ -1,1 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Latest News | Gautam Pashankar - Business Updates & Professional Developments</title>
+    <meta name="description" content="Stay updated with the latest news, business developments, and professional updates related to Gautam Pashankar. Explore recent activities, ventures, and industry insights.">
+    <meta name="keywords" content="Gautam Pashankar latest news, Gautam Pashankar updates, Pune businessman news, Pashankar business developments, automotive industry updates Pune, construction sector news, Gautam Pashankar professional updates, Rinul Gautam Pashankar news, Pashankar group news, Pune business news">
+    <meta name="author" content="Gautam Pashankar">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.gautampashankar.com/latest-news">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep: #060b14; --navy: #0d1a2d; --royal: #152238;
+            --gold: #c4a144; --gold-bright: #d4b85c; --gold-light: #e8d5a3; --gold-pale: #f7f0e0;
+            --cream: #faf8f3; --white: #ffffff;
+            --gray-50: #f7f8fa; --gray-100: #f0f2f5; --gray-200: #e2e5ea; --gray-300: #cdd1d8;
+            --gray-400: #9ca0a8; --gray-500: #6b6f78; --gray-600: #4b4f56; --gray-700: #373a40;
+            --gray-800: #1f2228; --gray-900: #111318;
+            --red: #dc2626; --blue: #2563eb; --green: #059669;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.05); --shadow-md: 0 4px 12px rgba(0,0,0,0.07);
+            --shadow-lg: 0 12px 30px rgba(0,0,0,0.1); --shadow-xl: 0 25px 50px rgba(0,0,0,0.13);
+            --shadow-gold: 0 15px 40px rgba(196,161,68,0.18);
+            --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--white); color: var(--gray-700); line-height: 1.7;
+            overflow-x: hidden; -webkit-font-smoothing: antialiased;
+        }
+        .container { max-width: 1240px; margin: 0 auto; padding: 0 40px; }
+        @media (max-width: 768px) { .container { padding: 0 20px; } }
+
+        .orb { position: fixed; border-radius: 50%; filter: blur(140px); pointer-events: none; z-index: 0; opacity: 0.08; }
+        .orb-1 { width: 600px; height: 600px; background: radial-gradient(circle, #c4a144, transparent); top: -200px; right: -180px; animation: orbDrift1 22s ease-in-out infinite; }
+        .orb-2 { width: 450px; height: 450px; background: radial-gradient(circle, #152238, transparent); bottom: -150px; left: -120px; animation: orbDrift2 26s ease-in-out infinite; }
+        @keyframes orbDrift1 { 0%, 100% { transform: translate(0, 0) scale(1); } 33% { transform: translate(-50px, 35px) scale(1.1); } 66% { transform: translate(30px, -20px) scale(0.95); } }
+        @keyframes orbDrift2 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(45px, -35px) scale(1.15); } }
+
+        /* ============ TOP BAR ============ */
+        .top-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(255,255,255,0.9); backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); border-bottom: 1px solid rgba(0,0,0,0.05); transition: all 0.4s ease; }
+        .top-bar.scrolled { box-shadow: 0 6px 40px rgba(0,0,0,0.1); background: rgba(255,255,255,0.97); }
+        .top-bar-inner { display: flex; align-items: center; justify-content: space-between; height: 78px; max-width: 1240px; margin: 0 auto; padding: 0 40px; }
+        @media (max-width: 768px) { .top-bar-inner { padding: 0 20px; height: 66px; } }
+        .brand { font-family: 'Cormorant Garamond', serif; font-size: 1.9rem; font-weight: 700; color: var(--deep); text-decoration: none; letter-spacing: -0.5px; display: flex; align-items: center; gap: 8px; z-index: 1001; }
+        .brand-accent { width: 9px; height: 9px; background: linear-gradient(135deg, var(--gold), var(--gold-bright)); border-radius: 50%; display: inline-block; box-shadow: 0 0 12px rgba(196,161,68,0.5); }
+        .main-nav { display: flex; align-items: center; gap: 4px; list-style: none; }
+        @media (max-width: 1024px) { .main-nav { display: none; } }
+        .main-nav > li { position: relative; }
+        .main-nav > li > a { text-decoration: none; color: var(--gray-700); font-weight: 500; font-size: 0.88rem; padding: 12px 18px; border-radius: 8px; transition: all 0.3s ease; white-space: nowrap; letter-spacing: 0.2px; cursor: pointer; display: flex; align-items: center; gap: 6px; }
+        .main-nav > li > a:hover { color: var(--deep); background: var(--gray-100); }
+        .main-nav > li > a .menu-arrow { font-size: 0.6rem; transition: transform 0.3s ease; }
+        .main-nav a.nav-cta { background: var(--deep); color: var(--white) !important; font-weight: 600; padding: 12px 24px !important; border-radius: 10px !important; margin-left: 8px; box-shadow: 0 4px 16px rgba(6,11,20,0.25); }
+        .main-nav a.nav-cta:hover { background: #0a1224 !important; transform: translateY(-2px); box-shadow: 0 8px 28px rgba(6,11,20,0.35); }
+        .main-nav a.active-link { color: #8b6914; background: rgba(196,161,68,0.1); font-weight: 600; }
+        .mobile-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; color: var(--gray-800); z-index: 1001; }
+        @media (max-width: 1024px) { .mobile-toggle { display: block; } }
+
+        /* ============ MEGA MENU OVERLAY ============ */
+        .mega-menu-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.3); z-index: 998; opacity: 0; visibility: hidden; transition: all 0.3s ease; pointer-events: none; }
+        .mega-menu-overlay.active { opacity: 1; visibility: visible; pointer-events: auto; }
+
+        /* ============ MEGA MENU ============ */
+        .mega-menu { position: fixed; top: 78px; left: 0; right: 0; z-index: 999; background: rgba(255,255,255,0.98); backdrop-filter: blur(40px); -webkit-backdrop-filter: blur(40px); border-bottom: 1px solid rgba(0,0,0,0.06); box-shadow: 0 30px 60px rgba(0,0,0,0.15); transform: translateY(-20px); opacity: 0; visibility: hidden; transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94); pointer-events: none; max-height: calc(100vh - 78px); overflow-y: auto; }
+        .mega-menu.active { transform: translateY(0); opacity: 1; visibility: visible; pointer-events: auto; }
+        @media (max-width: 768px) { .mega-menu { top: 66px; max-height: calc(100vh - 66px); } }
+        .mega-menu-inner { max-width: 1240px; margin: 0 auto; padding: 50px 40px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+        @media (max-width: 1024px) { .mega-menu-inner { grid-template-columns: repeat(2, 1fr); padding: 40px 30px; } }
+        @media (max-width: 640px) { .mega-menu-inner { grid-template-columns: 1fr; padding: 30px 20px; gap: 30px; } }
+        .mega-col h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 700; color: var(--deep); margin-bottom: 18px; padding-bottom: 12px; border-bottom: 2px solid var(--gold-pale); letter-spacing: -0.3px; }
+        .mega-col ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+        .mega-col ul li a { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--gray-600); font-size: 0.9rem; font-weight: 500; padding: 10px 14px; border-radius: 8px; transition: all 0.25s ease; }
+        .mega-col ul li a:hover { background: var(--gray-50); color: var(--deep); transform: translateX(4px); }
+        .mega-col ul li a .mega-icon { font-size: 1.2rem; width: 28px; text-align: center; }
+        .mega-highlight { background: linear-gradient(135deg, #fdfcf6, #fef9f0); border: 1px solid rgba(196,161,68,0.15); border-radius: 14px; padding: 20px; margin-top: 16px; }
+        .mega-highlight span { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--gold); display: block; margin-bottom: 8px; }
+        .mega-highlight p { font-size: 0.85rem; color: var(--gray-600); line-height: 1.5; margin-bottom: 12px; }
+        .mega-highlight a { font-weight: 600; color: var(--deep); text-decoration: none; font-size: 0.85rem; transition: color 0.3s; }
+        .mega-highlight a:hover { color: var(--gold); }
+        .mega-close { position: absolute; top: 20px; right: 30px; background: var(--gray-100); border: none; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; color: var(--gray-600); transition: all 0.3s; z-index: 10; }
+        .mega-close:hover { background: var(--gray-200); color: var(--deep); }
+
+        /* ============ PAGE HEADER ============ */
+        .page-header { position: relative; background: linear-gradient(170deg, #fdfcf8 0%, #f7f2e6 30%, #faf6ef 60%, #fdfcf8 100%); padding: 140px 0 80px; text-align: center; overflow: hidden; }
+        @media (max-width: 768px) { .page-header { padding: 120px 0 60px; } }
+        .page-header-glow { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 600px; height: 600px; background: radial-gradient(circle, rgba(196,161,68,0.08) 0%, transparent 70%); pointer-events: none; border-radius: 50%; }
+        .page-header-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(196,161,68,0.1); border: 1px solid rgba(196,161,68,0.2); color: #8b6914; font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 3px; padding: 10px 22px; border-radius: 50px; margin-bottom: 24px; position: relative; z-index: 1; }
+        .page-header-badge .live-dot { width: 8px; height: 8px; background: var(--red); border-radius: 50%; animation: livePulse 1.5s ease-in-out infinite; }
+        @keyframes livePulse { 0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(220,38,38,0.6); } 50% { opacity: 0.6; box-shadow: 0 0 0 10px rgba(220,38,38,0); } }
+        .page-header h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.8rem, 6vw, 4.2rem); font-weight: 700; color: var(--deep); margin-bottom: 18px; letter-spacing: -1px; position: relative; z-index: 1; }
+        .page-header h1 .gold-word { color: var(--gold); font-style: italic; }
+        .page-header p { font-size: 1.15rem; color: var(--gray-500); max-width: 600px; margin: 0 auto; position: relative; z-index: 1; line-height: 1.7; }
+
+        /* ============ FILTER BAR ============ */
+        .filter-bar { background: var(--white); border-bottom: 1px solid var(--gray-200); padding: 20px 0; position: sticky; top: 78px; z-index: 50; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); background: rgba(255,255,255,0.9); }
+        @media (max-width: 768px) { .filter-bar { top: 66px; } }
+        .filter-inner { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; max-width: 1240px; margin: 0 auto; padding: 0 40px; }
+        @media (max-width: 768px) { .filter-inner { padding: 0 20px; gap: 8px; } }
+        .filter-btn { padding: 10px 22px; border-radius: 50px; border: 1px solid var(--gray-200); background: var(--white); font-weight: 500; font-size: 0.85rem; color: var(--gray-600); cursor: pointer; transition: all 0.3s ease; white-space: nowrap; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .filter-btn:hover { border-color: var(--gold); color: var(--deep); background: #fefcf6; }
+        .filter-btn.active { background: var(--deep); color: var(--white); border-color: var(--deep); font-weight: 600; }
+
+        /* ============ NEWS SECTION ============ */
+        .news-section { padding: 70px 0 100px; position: relative; z-index: 1; }
+        .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        @media (max-width: 1024px) { .news-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 640px) { .news-grid { grid-template-columns: 1fr; } }
+        .news-card { background: var(--white); border: 1px solid var(--gray-200); border-radius: 20px; overflow: hidden; transition: all 0.45s ease; cursor: pointer; position: relative; }
+        .news-card:hover { border-color: var(--gold); box-shadow: var(--shadow-xl); transform: translateY(-8px); }
+        .news-card.hidden-card { display: none; }
+        .news-card-image { height: 200px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+        .news-card-image .news-icon { font-size: 4rem; opacity: 0.6; transition: transform 0.5s ease; }
+        .news-card:hover .news-card-image .news-icon { transform: scale(1.2); opacity: 0.8; }
+        .bg-auto { background: linear-gradient(135deg, #f0ebe0 0%, #e8dcc8 50%, #f5efe4 100%); }
+        .bg-construct { background: linear-gradient(135deg, #e8e0d0 0%, #dcd0b8 50%, #f0e8d8 100%); }
+        .bg-media { background: linear-gradient(135deg, #e0d8f0 0%, #d0c8e8 50%, #e8e0f5 100%); }
+        .bg-regional { background: linear-gradient(135deg, #d8e8e0 0%, #c0d8d0 50%, #e0f0e8 100%); }
+        .bg-business { background: linear-gradient(135deg, #f0e8d8 0%, #e8d8c0 50%, #f5ede0 100%); }
+        .bg-family { background: linear-gradient(135deg, #e8d8e0 0%, #d8c8d0 50%, #f0e0e8 100%); }
+        .bg-featured { background: linear-gradient(150deg, #e8dcc8 0%, #d4c5a0 40%, #ede4d0 100%); }
+        .bg-infra { background: linear-gradient(135deg, #d0d8e8 0%, #c0c8d8 50%, #e0e8f0 100%); }
+        .news-card-category { position: absolute; top: 16px; left: 16px; background: rgba(255,255,255,0.9); backdrop-filter: blur(8px); padding: 6px 14px; border-radius: 50px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--deep); border: 1px solid rgba(0,0,0,0.06); }
+        .news-card-date { position: absolute; top: 16px; right: 16px; background: rgba(255,255,255,0.9); backdrop-filter: blur(8px); padding: 6px 14px; border-radius: 50px; font-size: 0.72rem; font-weight: 600; color: var(--gray-500); border: 1px solid rgba(0,0,0,0.06); }
+        .news-card-body { padding: 24px 20px 28px; }
+        .news-card-body h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; font-weight: 700; color: var(--deep); margin-bottom: 10px; line-height: 1.3; transition: color 0.3s ease; }
+        .news-card:hover .news-card-body h3 { color: var(--gold); }
+        .news-card-body p { font-size: 0.88rem; color: var(--gray-500); line-height: 1.6; margin-bottom: 16px; }
+        .news-card-meta { display: flex; align-items: center; gap: 12px; font-size: 0.75rem; color: var(--gray-400); font-weight: 500; flex-wrap: wrap; }
+        .news-card-tag { display: inline-block; background: var(--gray-50); padding: 4px 10px; border-radius: 50px; font-size: 0.68rem; font-weight: 600; color: var(--gray-500); letter-spacing: 0.5px; }
+
+        .featured-news { margin-bottom: 50px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 30px; }
+        @media (max-width: 768px) { .featured-news { grid-template-columns: 1fr; } }
+        .featured-main { background: var(--white); border: 1px solid var(--gray-200); border-radius: 24px; overflow: hidden; transition: all 0.45s ease; cursor: pointer; }
+        .featured-main:hover { border-color: var(--gold); box-shadow: var(--shadow-xl); transform: translateY(-6px); }
+        .featured-main-image { height: 280px; display: flex; align-items: center; justify-content: center; position: relative; }
+        .featured-main-image .featured-icon { font-size: 5rem; opacity: 0.5; transition: transform 0.5s ease; }
+        .featured-main:hover .featured-main-image .featured-icon { transform: scale(1.15); opacity: 0.7; }
+        .featured-badge { position: absolute; top: 20px; left: 20px; background: var(--gold); color: var(--white); padding: 8px 18px; border-radius: 50px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; }
+        .featured-main-body { padding: 32px 28px; }
+        .featured-main-body h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 700; color: var(--deep); margin-bottom: 12px; line-height: 1.25; }
+        .featured-main-body p { font-size: 0.95rem; color: var(--gray-500); line-height: 1.7; }
+        .featured-secondary { display: flex; flex-direction: column; gap: 20px; }
+        .featured-mini { background: var(--white); border: 1px solid var(--gray-200); border-radius: 18px; padding: 24px; transition: all 0.35s ease; cursor: pointer; flex: 1; display: flex; gap: 18px; align-items: center; }
+        .featured-mini:hover { border-color: var(--gold); box-shadow: var(--shadow-lg); transform: translateY(-4px); }
+        .featured-mini-icon { font-size: 2.2rem; min-width: 50px; text-align: center; }
+        .featured-mini-content h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-weight: 700; color: var(--deep); margin-bottom: 4px; }
+        .featured-mini-content p { font-size: 0.8rem; color: var(--gray-500); line-height: 1.5; }
+
+        .pagination { display: flex; justify-content: center; gap: 10px; margin-top: 60px; }
+        .page-num { width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--gray-200); background: var(--white); display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.9rem; color: var(--gray-600); cursor: pointer; transition: all 0.3s ease; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .page-num:hover { border-color: var(--gold); background: #fefcf6; }
+        .page-num.active { background: var(--deep); color: var(--white); border-color: var(--deep); }
+
+        .newsletter-cta { background: linear-gradient(150deg, #fdfcf8 0%, #f7f2e6 50%, #faf6ef 100%); border: 1px solid rgba(196,161,68,0.2); border-radius: 24px; padding: 60px 40px; text-align: center; margin-top: 80px; position: relative; overflow: hidden; }
+        .newsletter-cta::before { content: ''; position: absolute; top: -50%; right: -10%; width: 300px; height: 300px; background: radial-gradient(circle, rgba(196,161,68,0.08) 0%, transparent 70%); border-radius: 50%; pointer-events: none; }
+        .newsletter-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; color: var(--deep); margin-bottom: 12px; position: relative; z-index: 1; }
+        .newsletter-cta p { font-size: 1rem; color: var(--gray-500); margin-bottom: 28px; position: relative; z-index: 1; }
+        .newsletter-form { display: flex; gap: 12px; max-width: 500px; margin: 0 auto; position: relative; z-index: 1; }
+        @media (max-width: 640px) { .newsletter-form { flex-direction: column; } }
+        .newsletter-form input { flex: 1; padding: 14px 20px; border-radius: 12px; border: 1px solid var(--gray-300); font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.9rem; outline: none; transition: all 0.3s ease; background: var(--white); }
+        .newsletter-form input:focus { border-color: var(--gold); box-shadow: 0 0 0 4px rgba(196,161,68,0.08); }
+        .newsletter-form button { padding: 14px 28px; border-radius: 12px; background: var(--deep); color: var(--white); font-weight: 600; font-size: 0.9rem; border: none; cursor: pointer; transition: all 0.35s ease; font-family: 'Plus Jakarta Sans', sans-serif; white-space: nowrap; }
+        .newsletter-form button:hover { background: #0a1224; transform: translateY(-2px); box-shadow: 0 8px 25px rgba(6,11,20,0.3); }
+
+        .no-results { display: none; text-align: center; padding: 60px 20px; color: var(--gray-500); }
+        .no-results.show { display: block; }
+        .no-results-icon { font-size: 4rem; margin-bottom: 20px; opacity: 0.5; }
+        .no-results h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; color: var(--deep); margin-bottom: 10px; }
+        .no-results p { color: var(--gray-500); }
+
+        .footer { background: var(--deep); color: var(--white); text-align: center; padding: 80px 0 50px; position: relative; overflow: hidden; }
+        .footer-dots { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: radial-gradient(rgba(255,255,255,0.02) 1px, transparent 1px); background-size: 28px 28px; pointer-events: none; }
+        .footer h4 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; margin-bottom: 16px; position: relative; z-index: 1; color: var(--white); }
+        .footer p { color: var(--gray-400); max-width: 550px; margin: 0 auto 30px; font-size: 1rem; position: relative; z-index: 1; }
+        .footer-line { width: 50px; height: 3px; background: var(--gold); margin: 0 auto 30px; border-radius: 3px; position: relative; z-index: 1; }
+        .footer-base { border-top: 1px solid rgba(255,255,255,0.07); padding-top: 24px; font-size: 0.82rem; color: var(--gray-500); position: relative; z-index: 1; }
+        .footer-links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px; position: relative; z-index: 1; }
+        .footer-links a { color: var(--gray-400); text-decoration: none; font-size: 0.85rem; transition: color 0.3s ease; }
+        .footer-links a:hover { color: var(--gold); }
+    
+.featured-insight{
+    margin-top:24px;
+    padding:18px 22px;
+    background:rgba(196,161,68,0.08);
+    border-left:4px solid var(--gold);
+    border-radius:12px;
+}
+.insight-label{
+    display:block;
+    font-size:0.75rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:700;
+    color:var(--gold);
+    margin-bottom:8px;
+}
+
+</style>
+</head>
+<body>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <!-- ==================== MEGA MENU OVERLAY ==================== -->
+    <div class="mega-menu-overlay" id="megaOverlay"></div>
+
+    <!-- ==================== MEGA MENU ==================== -->
+    <div class="mega-menu" id="megaMenu">
+        <button class="mega-close" id="megaClose">✕</button>
+        <div class="mega-menu-inner">
+            <!-- Column 1: About & Journey -->
+            <div class="mega-col">
+                <h4>👤 About & Journey</h4>
+                <ul>
+                    <li><a href="index.html#about"><span class="mega-icon">📋</span> About Gautam Pashankar</a></li>
+                    <li><a href="index.html#journey"><span class="mega-icon">🛤️</span> Professional Journey</a></li>
+                    <li><a href="index.html#timeline"><span class="mega-icon">⏳</span> Key Milestones</a></li>
+                    <li><a href="index.html#family"><span class="mega-icon">🌳</span> Family & Future</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 2: Business Ecosystem -->
+            <div class="mega-col">
+                <h4>🏢 Business Ecosystem</h4>
+                <ul>
+                    <li><a href="index.html#business"><span class="mega-icon">🚗</span> Automotive Sector</a></li>
+                    <li><a href="index.html#business"><span class="mega-icon">🏗️</span> Construction & Infrastructure</a></li>
+                    <li><a href="index.html#business"><span class="mega-icon">📰</span> Media & Publications</a></li>
+                    <li><a href="index.html#business"><span class="mega-icon">📍</span> Regional Development</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: News & Updates -->
+            <div class="mega-col">
+                <h4>📰 News & Updates</h4>
+                <ul>
+                    <li><a href="latest-news.html"><span class="mega-icon">📢</span> All Latest News</a></li>
+                    <li><a href="latest-news.html" class="filter-trigger" data-filter="automotive"><span class="mega-icon">🚗</span> Automotive Updates</a></li>
+                    <li><a href="latest-news.html" class="filter-trigger" data-filter="construction"><span class="mega-icon">🏗️</span> Construction News</a></li>
+                    <li><a href="latest-news.html" class="filter-trigger" data-filter="infrastructure"><span class="mega-icon">🏢</span> Infrastructure News</a></li>
+                    <li><a href="latest-news.html" class="filter-trigger" data-filter="media"><span class="mega-icon">📰</span> Media Updates</a></li>
+                    <li><a href="latest-news.html" class="filter-trigger" data-filter="business"><span class="mega-icon">💼</span> Business Developments</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Quick Links -->
+            <div class="mega-col">
+                <h4>🔗 Quick Links</h4>
+                <ul>
+                    <li><a href="index.html#leadership"><span class="mega-icon">🧠</span> Leadership Philosophy</a></li>
+                    <li><a href="index.html#faq"><span class="mega-icon">❓</span> Frequently Asked Questions</a></li>
+                    <li><a href="index.html"><span class="mega-icon">🏠</span> Back to Homepage</a></li>
+                </ul>
+                <div class="mega-highlight">
+                    <span>📰 Latest Update</span>
+                    <p>Gautam Pashankar's vision for Pune's growing automotive sector in 2025.</p>
+                    <a href="latest-news.html">Read Full Story →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== TOP BAR ==================== -->
+    <header class="top-bar" id="topBar">
+        <div class="top-bar-inner">
+            <a href="index.html" class="brand">G<span class="brand-accent"></span> Pashankar</a>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="#" class="mega-trigger">Explore <span class="menu-arrow">▼</span></a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#business">Business</a></li>
+                    <li><a href="latest-news.html" class="active-link">Latest News</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="index.html" class="nav-cta">Home →</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" aria-label="Menu">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                    <line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="18" x2="20" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==================== PAGE HEADER ==================== -->
+    <section class="page-header">
+        <div class="page-header-glow"></div>
+        <div class="container" style="position:relative;z-index:1;">
+            <span class="page-header-badge"><span class="live-dot"></span> Latest Updates</span>
+            <h1>Gautam Pashankar <span class="gold-word">Latest News</span></h1>
+            <p>Stay informed with the latest business developments, professional milestones, and key updates from Gautam Pashankar and the wider Pashankar business ecosystem. Explore recent achievements, industry insights, and emerging opportunities shaping the future.</p>
+        </div>
+    </section>
+
+    <!-- ==================== FILTER BAR ==================== -->
+    <div class="filter-bar">
+        <div class="filter-inner">
+            <button class="filter-btn active" data-filter="all">All News</button>
+            <button class="filter-btn" data-filter="automotive">🚗 Automotive</button>
+            <button class="filter-btn" data-filter="construction">🏗️ Construction</button>
+            <button class="filter-btn" data-filter="infrastructure">🏢 Infrastructure</button>
+            <button class="filter-btn" data-filter="media">📰 Media</button>
+            <button class="filter-btn" data-filter="business">💼 Business Updates</button>
+            <button class="filter-btn" data-filter="regional">📍 Pune Region</button>
+            <button class="filter-btn" data-filter="family">🌳 Family</button>
+        </div>
+    </div>
+
+    <!-- ==================== NEWS SECTION ==================== -->
+    <section class="news-section">
+        <div class="container">
+            <div class="featured-news" data-category="featured">
+                <div class="featured-main" data-category="automotive">
+                    <div class="featured-main-image bg-featured"><span class="featured-icon">📰</span><span class="featured-badge">Featured</span></div>
+                    <div class="featured-main-body">
+                        <h2>Gautam Pashankar's Vision for Pune's Growing Automotive Sector in 2025</h2>
+                        <p>For decades, Pune has remained one of India's most influential automotive hubs, driven by innovation, entrepreneurship, and evolving consumer expectations. Within this dynamic landscape, Gautam Pashankar's business ecosystem continues to reflect a commitment to customer-centric growth, operational excellence, and long-term value creation. As the industry embraces new technologies and changing mobility trends, the focus remains on strengthening customer relationships, adapting to market shifts, and contributing to Pune's ongoing automotive success story. This sustained approach highlights a vision built not only on business growth but also on trust, consistency, and future readiness.<div class='featured-insight'><span class='insight-label'>Key Insight</span><p>As Pune's business environment continues to evolve, organizations that combine customer trust, adaptability, and long-term thinking are expected to play an increasingly important role in shaping the region's economic future.</p></div></p>
+                        <div class="news-card-meta" style="margin-top:14px;"><span>📅 June 15, 2025</span><span>⏱️ 5 min read</span><span class="news-card-tag">Automotive</span></div>
+                    </div>
+                </div>
+                <div class="featured-secondary">
+                    <div class="featured-mini" data-category="infrastructure"><span class="featured-mini-icon">🏗️</span><div class="featured-mini-content"><h4>Infrastructure Developments Linked to Pune's Business Growth</h4><p>As Pune continues its transformation into a leading commercial and industrial destination, infrastructure development remains a key driver of economic progress. Ongoing construction and development activities are helping create new opportunities, improve connectivity, and support the city's expanding business ecosystem.</p><span style="font-size:0.7rem;color:#9ca0a8;">June 10, 2025</span></div></div>
+                    <div class="featured-mini" data-category="family"><span class="featured-mini-icon">🌳</span><div class="featured-mini-content"><h4>Next Generation Leadership: Rinul Gautam Pashankar's Emerging Role</h4><p>The future of every successful business network is shaped by its ability to evolve across generations. Growing interest surrounding Rinul Gautam Pashankar reflects the importance of continuity, fresh perspectives, and the next phase of leadership that could help carry forward a legacy built on entrepreneurship, innovation, and long-term vision.</p><span style="font-size:0.7rem;color:#9ca0a8;">June 5, 2025</span></div></div>
+                </div>
+            </div>
+
+            <div class="news-grid" id="newsGrid">
+                <div class="news-card" data-category="automotive"><div class="news-card-image bg-auto"><span class="news-icon">🚗</span><span class="news-card-category">Automotive</span><span class="news-card-date">May 28, 2025</span></div><div class="news-card-body"><h3>Pashankar Automotive Ventures Strengthen Customer Service Networks</h3><p>New initiatives focused on enhancing customer-focused automotive services and dealership operations across Pune.</p><div class="news-card-meta"><span>⏱️ 4 min read</span><span class="news-card-tag">Automotive</span></div></div></div>
+                <div class="news-card" data-category="construction"><div class="news-card-image bg-construct"><span class="news-icon">🏗️</span><span class="news-card-category">Construction</span><span class="news-card-date">May 20, 2025</span></div><div class="news-card-body"><h3>Construction Sector Participation Supports Urban Development in Pune</h3><p>Ongoing involvement in construction projects contributes to the region's infrastructure growth and commercial expansion.</p><div class="news-card-meta"><span>⏱️ 3 min read</span><span class="news-card-tag">Construction</span></div></div></div>
+                <div class="news-card" data-category="media"><div class="news-card-image bg-media"><span class="news-icon">📰</span><span class="news-card-category">Media</span><span class="news-card-date">May 12, 2025</span></div><div class="news-card-body"><h3>Media and Publication Ventures Expand Regional Presence</h3><p>Business interests associated with media-related enterprises show continued growth in Pune's publishing landscape.</p><div class="news-card-meta"><span>⏱️ 6 min read</span><span class="news-card-tag">Media</span></div></div></div>
+                <div class="news-card" data-category="regional"><div class="news-card-image bg-regional"><span class="news-icon">📍</span><span class="news-card-category">Pune Region</span><span class="news-card-date">May 5, 2025</span></div><div class="news-card-body"><h3>Pune's Commercial Ecosystem Benefits from Diversified Business Approach</h3><p>Regional business development remains a key focus, with long-standing involvement across multiple industry sectors.</p><div class="news-card-meta"><span>⏱️ 5 min read</span><span class="news-card-tag">Regional</span></div></div></div>
+                <div class="news-card" data-category="business"><div class="news-card-image bg-business"><span class="news-icon">🤝</span><span class="news-card-category">Business</span><span class="news-card-date">April 28, 2025</span></div><div class="news-card-body"><h3>Business Leadership Philosophy Emphasizes Long-Term Planning</h3><p>The professional approach reflects adaptability, customer trust, and sustainable growth in competitive industries.</p><div class="news-card-meta"><span>⏱️ 4 min read</span><span class="news-card-tag">Leadership</span></div></div></div>
+                <div class="news-card" data-category="family"><div class="news-card-image bg-family"><span class="news-icon">🌳</span><span class="news-card-category">Family</span><span class="news-card-date">April 20, 2025</span></div><div class="news-card-body"><h3>Generational Continuity: The Evolving Pashankar Business Network</h3><p>Family-driven entrepreneurship continues to play an important role in India's business ecosystem and future growth.</p><div class="news-card-meta"><span>⏱️ 7 min read</span><span class="news-card-tag">Family Enterprise</span></div></div></div>
+                <div class="news-card" data-category="automotive"><div class="news-card-image bg-auto"><span class="news-icon">🔧</span><span class="news-card-category">Automotive</span><span class="news-card-date">April 12, 2025</span></div><div class="news-card-body"><h3>Automotive Service Excellence Drives Customer Loyalty in Pune Market</h3><p>Dealership operations focus on delivering exceptional customer experiences and building long-term relationships.</p><div class="news-card-meta"><span>⏱️ 4 min read</span><span class="news-card-tag">Automotive</span></div></div></div>
+                <div class="news-card" data-category="infrastructure"><div class="news-card-image bg-infra"><span class="news-icon">🏢</span><span class="news-card-category">Infrastructure</span><span class="news-card-date">April 5, 2025</span></div><div class="news-card-body"><h3>Infrastructure Projects Signal Continued Growth in Pune Region</h3><p>Multiple infrastructure-linked activities demonstrate ongoing commitment to urban development and commercial expansion.</p><div class="news-card-meta"><span>⏱️ 5 min read</span><span class="news-card-tag">Infrastructure</span></div></div></div>
+                <div class="news-card" data-category="regional"><div class="news-card-image bg-regional"><span class="news-icon">📈</span><span class="news-card-category">Pune Region</span><span class="news-card-date">March 28, 2025</span></div><div class="news-card-body"><h3>Pune's Rise as a Major Commercial Center Creates New Opportunities</h3><p>The city's transformation into one of India's key business destinations aligns with diversified regional business strategies.</p><div class="news-card-meta"><span>⏱️ 6 min read</span><span class="news-card-tag">Regional</span></div></div></div>
+            </div>
+
+            <div class="no-results" id="noResults"><div class="no-results-icon">🔍</div><h3>No News Found</h3><p>There are no articles in this category yet. Please check back soon or select "All News" to view all updates.</p></div>
+
+            <div class="pagination">
+                <button class="page-num active">1</button>
+                <button class="page-num">2</button>
+                <button class="page-num">3</button>
+                <button class="page-num">→</button>
+            </div>
+
+            <div class="newsletter-cta">
+                <h3>Stay Updated with the Latest News</h3>
+                <p>Subscribe to receive timely updates on Gautam Pashankar’s business initiatives, professional journey, and insights into Pune’s rapidly evolving commercial landscape.</p>
+                <div class="newsletter-form"><input type="email" placeholder="Enter your email address"><button>Subscribe Now</button></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-dots"></div>
+        <div class="container" style="position:relative;z-index:1;">
+            <h4>Gautam Pashankar</h4>
+            <p>Stay connected with the latest business developments, professional insights, and updates from Gautam Pashankar’s journey and the broader business ecosystem.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#business">Business</a><a href="latest-news.html">Latest News</a><a href="index.html#faq">FAQ</a>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-base"><p>&copy; 2025 Gautam Pashankar. All rights reserved. | Professional Journey & Business Insights</p></div>
+        </div>
+    </footer>
+
+    <script>
+        const topBar = document.getElementById('topBar');
+        const megaMenu = document.getElementById('megaMenu');
+        const megaOverlay = document.getElementById('megaOverlay');
+        const megaClose = document.getElementById('megaClose');
+        const megaTriggers = document.querySelectorAll('.mega-trigger');
+
+        window.addEventListener('scroll', () => { if (window.scrollY > 70) { topBar.classList.add('scrolled'); } else { topBar.classList.remove('scrolled'); } });
+
+        function openMegaMenu() { megaMenu.classList.add('active'); megaOverlay.classList.add('active'); document.body.style.overflow = 'hidden'; }
+        function closeMegaMenu() { megaMenu.classList.remove('active'); megaOverlay.classList.remove('active'); document.body.style.overflow = ''; }
+
+        megaTriggers.forEach(trigger => { trigger.addEventListener('click', function(e) { e.preventDefault(); if (megaMenu.classList.contains('active')) { closeMegaMenu(); } else { openMegaMenu(); } }); });
+        megaClose.addEventListener('click', closeMegaMenu);
+        megaOverlay.addEventListener('click', closeMegaMenu);
+        document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && megaMenu.classList.contains('active')) { closeMegaMenu(); } });
+        megaMenu.querySelectorAll('a:not(.filter-trigger)').forEach(link => { link.addEventListener('click', function() { setTimeout(closeMegaMenu, 200); }); });
+
+        // Mega menu filter triggers
+        document.querySelectorAll('.filter-trigger').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const filterValue = this.getAttribute('data-filter');
+                closeMegaMenu();
+                setTimeout(() => {
+                    const filterBtn = document.querySelector(`.filter-btn[data-filter="${filterValue}"]`);
+                    if (filterBtn) { filterBtn.click(); window.scrollTo({ top: document.querySelector('.filter-bar').offsetTop - 100, behavior: 'smooth' }); }
+                }, 400);
+            });
+        });
+
+        // Category Filter
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const newsCards = document.querySelectorAll('.news-card');
+        const featuredItems = document.querySelectorAll('.featured-main, .featured-mini');
+        const noResults = document.getElementById('noResults');
+        const featuredSection = document.querySelector('.featured-news');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const filterValue = this.getAttribute('data-filter');
+                let visibleCount = 0;
+                newsCards.forEach(card => { if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) { card.classList.remove('hidden-card'); visibleCount++; } else { card.classList.add('hidden-card'); } });
+                let featuredVisible = 0;
+                featuredItems.forEach(item => { if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) { item.style.display = ''; featuredVisible++; } else { item.style.display = 'none'; } });
+                featuredSection.style.display = featuredVisible === 0 ? 'none' : '';
+                if (visibleCount === 0 && featuredVisible === 0) { noResults.classList.add('show'); } else { noResults.classList.remove('show'); }
+            });
+        });
+
+        document.querySelectorAll('.page-num').forEach(btn => { btn.addEventListener('click', function() { document.querySelectorAll('.page-num').forEach(b => b.classList.remove('active')); this.classList.add('active'); }); });
+        document.querySelectorAll('a[href^="#"]').forEach(link => { link.addEventListener('click', function(e) { e.preventDefault(); const target = document.querySelector(this.getAttribute('href')); if (target) { const offset = 85; const pos = target.getBoundingClientRect().top + window.pageYOffset - offset; window.scrollTo({ top: pos, behavior: 'smooth' }); } }); });
+    </script>
+</body>
+</html>
+
 
